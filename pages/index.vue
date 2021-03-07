@@ -124,9 +124,10 @@
 
       </div>
 
+    <span class="font-bold text-sm uppercase">&copy; Matt Wheeler, 2021</span>
 
     </div>
-
+  
   </div>
 
 </template>
