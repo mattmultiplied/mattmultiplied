@@ -1,20 +1,4 @@
 # mattmultiplied
 
-## Build Setup
-
-```bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## About Me
+Graphic & Communication design graduate achieving BA (IND) 1st Class Honours at The University of Leeds. Alongside this, I am a self-taught developer working in both front-end and back-end development. Got a project in mind or just fancy a chat, send me a message and we can support our local Leeds coffee shops.
