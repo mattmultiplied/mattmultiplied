@@ -23,7 +23,7 @@
       <div class="mb-12">
 
         <h2 class="font-bold uppercase tracking-wide text-base mb-4">About me</h2>
-        <p class="mb-4">My background is in Graphic &amp; Communication design achieving BA (IND) 1st Class Honours at The University of Leeds. Alongside this, I am a self-taught developer working in both front-end and back-end development. Got a project in mind or just fancy a chat, send me a message and we can support our local Leeds coffee shops.</p>
+        <p class="mb-4">My background is in Graphic &amp; Communication design achieving BA (IND) 1st Class Honours at The University of Leeds. Alongside this, I am a self-taught developer working in both front-end and back-end development. My background is in Graphic & Communication design achieving BA (IND) 1st Class Honours at The University of Leeds. Alongside this, I am a self-taught developer working in both front-end and back-end development. Have you got a project in mind or just fancy a chat? Send me an email and we can grab a coffee and support our local Leeds businesses.</p>
      
       </div>
 
