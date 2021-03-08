@@ -154,7 +154,7 @@
   .overlay-background-blue {
 
     @apply bg-cover;
-    background-image: url("~/assets/images/overlay_background_pink.svg");
+    background-image: url("~/assets/images/overlay_background_blue.svg");
 
   }
 
