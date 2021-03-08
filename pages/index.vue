@@ -57,12 +57,12 @@
             <p>Co-Founder &amp; Director of madeby.studio, a Graphic Design &amp; Digital Development agency located in Leeds City Center, UK. I run the digital side realising client projects into the digital domain.</p>
           </a>
 
-          <a href="#" class="hover:pb-2 mb-8 block">
+          <div class="hover:pb-2 mb-8 block">
 
             <img class="rounded-lg shadow-sm hover:shadow-lg transition-all duration-150 mb-4" src="~/assets/images/nanoids_cover.png" alt="Nanoids">
-            <h2 class="font-bold text-lg">Nanoids (WIP)</h2>
+            <h2 class="font-bold text-lg">Nanoids <span class="text-sm opacity-50">Coming Soon</span></h2>
             <p>Phaser 3 project visualising NANO transactions through gamification. Game objects are spawned dynamically via each transaction confirmed on the NANO network.</p>
-          </a>
+          </div>
 
           <a href="https://madeby.studio/work/programming-meets-bespoke-contemporary-design/" target="_blank" class="hover:pb-2 mb-8 block">
 
@@ -71,12 +71,12 @@
             <p>Experimental project bringing design and code together to create procedurally generated algorithmic designs. Currently working on more advanced generative patterns to compile into a design zine.</p>
           </a>
 
-          <a href="#" class="hover:pb-2 mb-8 block">
+          <div class="hover:pb-2 mb-8 block">
 
             <img class="rounded-lg shadow-sm hover:shadow-lg transition-all duration-150 mb-4" src="~/assets/images/photography_cover.jpg" alt="Photography and Drone Experiments">
-            <h2 class="font-bold text-lg">Photography &amp; Drone Experiments (WIP)</h2>
+            <h2 class="font-bold text-lg">Photography &amp; Drone Experiments <span class="text-sm opacity-50">Coming Soon</span></h2>
             <p>Some experiments into photography &amp; birds eye drone footage. Primarily a learning project for a bit of fun while out hiking or travelling.</p>
-          </a>
+          </div>
 
         </div>
 
