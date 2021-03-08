@@ -1,5 +1,5 @@
 <template>
-<a href="https://phaser.io/" target="_blank" rel="nofollow" class="font-semibold hover:text-indigo-900 transition-color duration-150">
+<a href="https://phaser.io/" target="_blank" rel="noreferrer" class="font-semibold hover:text-indigo-900 transition-color duration-150">
 
   <svg class="w-8 h-8 inline mr-2 fill-current" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
     viewBox="0 0 69.1 80.1" style="enable-background:new 0 0 69.1 80.1;" xml:space="preserve">
