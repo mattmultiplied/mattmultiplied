@@ -4,8 +4,14 @@
 
     <div class="bg-indigo-800 bg-bottom overlay-background-blue">
 
-      <div class="bg-cover bg-center background-image-matt py-48 w-full lg:h-screen border-b-8 border-blue-600 border-dashed">
-      
+      <div class="bg-cover bg-center background-image-matt py-24 w-full lg:h-screen border-b-8 border-blue-600 border-dashed">
+
+        <div class="block lg:hidden w-64 h-64 mx-auto overflow-hidden rounded-full">
+          
+          <img class="" src="~/assets/images/matt_wheeler.jpg">
+
+        </div>
+
       </div>
 
     </div>
@@ -137,12 +143,18 @@
   .font-sans {
     font-family: Nunito;
   }
-  .background-image-matt {
 
-    @apply bg-cover bg-top;
-    background-image: url("~/assets/images/matt_wheeler.jpg");
+  @screen lg {
+
+    .background-image-matt {
+
+      @apply bg-cover bg-top;
+      background-image: url("~/assets/images/matt_wheeler.jpg");
+
+    }
 
   }
+  
 
   .overlay-background-pink {
 
