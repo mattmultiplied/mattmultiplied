@@ -63,12 +63,12 @@
             <p>Co-Founder &amp; Director of madeby.studio, a Graphic Design &amp; Digital Development agency located in Leeds City Center, UK. I run the digital side realising client projects into the digital domain.</p>
           </a>
 
-          <div class="hover:pb-2 mb-8 block transform hover:-translate-y-1 duration-150">
+          <a href="https://www.instagram.com/drone_up_high/" rel="external" target="_blank" class="hover:pb-2 mb-8 block transform hover:-translate-y-1 duration-150">
 
-            <img class="rounded-lg shadow-sm hover:shadow-lg transition-all duration-150 mb-4" rel="external" src="~/assets/images/nanoids_cover.png" alt="Nanoids">
-            <h2 class="font-bold text-lg">Nanoids <span class="text-sm opacity-50">Coming Soon</span></h2>
-            <p>Phaser 3 project visualising NANO transactions through gamification. Game objects are spawned dynamically via each transaction confirmed on the NANO network.</p>
-          </div>
+            <img class="rounded-lg shadow-sm hover:shadow-lg transition-all duration-150 mb-4" src="~/assets/images/photography_cover.jpg" alt="Photography and Drone Experiments">
+            <h2 class="font-bold text-lg">Drone Photography</h2>
+            <p>Experiments into drone footage and birds eye view photography. Primarily a learning project for a bit of fun while out hiking or travelling. DJI Mavic Mini 2.</p>
+          </a>
 
           <a href="https://madeby.studio/work/programming-meets-bespoke-contemporary-design/" rel="external" target="_blank" class="hover:pb-2 mb-8 block transform hover:-translate-y-1 duration-150">
 
@@ -79,9 +79,9 @@
 
           <div class="hover:pb-2 mb-8 block transform hover:-translate-y-1 duration-150">
 
-            <img class="rounded-lg shadow-sm hover:shadow-lg transition-all duration-150 mb-4" src="~/assets/images/photography_cover.jpg" alt="Photography and Drone Experiments">
-            <h2 class="font-bold text-lg">Photography &amp; Drone Experiments <span class="text-sm opacity-50">Coming Soon</span></h2>
-            <p>Some experiments into photography &amp; birds eye drone footage. Primarily a learning project for a bit of fun while out hiking or travelling.</p>
+            <img class="rounded-lg shadow-sm hover:shadow-lg transition-all duration-150 mb-4" rel="external" src="~/assets/images/nanoids_cover.png" alt="Nanoids">
+            <h2 class="font-bold text-lg">Nanoids <span class="text-sm opacity-50">Coming Soon</span></h2>
+            <p>Phaser 3 project visualising NANO transactions through gamification. Game objects are spawned dynamically via each transaction confirmed on the NANO network.</p>
           </div>
 
         </div>
