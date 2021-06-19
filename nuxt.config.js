@@ -4,23 +4,23 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'mattmultiplied | Graphic Designer & Full-stack Developer',
+    title: 'mattmultiplied-version-two',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'mattmultiplied is the pseudonym for Matt Wheeler, graphic designer & full-stack developer. This site is a micro-portfolio site of all his past and current projects.' },
-      { property: 'og:image', content: "~/assets/images/meta_image.png" } ,
+      { hid: 'description', name: 'description', content: '' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ],
+    ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -34,14 +34,8 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    'nuxt-font-loader'
   ],
-
-  tailwindcss: {
-    cssPath: '~/assets/css/tailwind.css',
-    configPath: 'tailwind.config.js',
-    exposeConfig: false,
-    config: {}
-  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
@@ -49,5 +43,8 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+  fontLoader: {
+    url: '/fonts/fonts.css'
   }
 }

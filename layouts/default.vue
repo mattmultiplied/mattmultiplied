@@ -1,20 +1,68 @@
 <template>
-  <div>
+
+  <div :class="mode ? 'blue-mode' : 'pink-mode'">
+    <div class="absolute w-full">
+      <nav class="container mx-auto px-4 py-8 lg:px-16 lg:pt-16 flex flex-col lg:flex-row">
+        <div class="mx-auto lg:mx-0 mb-8">
+          <nuxt-link @click.native="checkPage" to="/" :class="mode ? 'bg-pink-600' : 'bg-indigo-800'" class="inline-block text-4xl font-bold text-white uppercase px-3 py-1 sauce-sans transform -rotate-3 ease-in-out hover:scale-110 duration-150 tracking-widest">Matt Wheeler</nuxt-link>
+        </div>
+        <ul class="text-white inline uppercase text-base font-bold tracking-widest mx-auto lg:mx-0 lg:ml-auto">
+          <li class="inline"><nuxt-link to="/" @click.native="checkPage" class="inline-block transform hover:-rotate-2 ease-in-out duration-150">Inside Work</nuxt-link></li>
+          <li class="inline ml-12"><nuxt-link to="/personal" @click.native="checkPage" class="inline-block transform hover:-rotate-2 ease-in-out duration-150">Outside Work</nuxt-link></li>
+        </ul>
+      </nav>
+      
+    </div>
     <Nuxt />
   </div>
+
 </template>
+
+
+<script>
+export default {
+  
+  data() {
+
+    return {
+
+      mode: null,
+
+    }
+
+  },
+
+  methods: {
+
+    checkPage() {
+
+      if(this.$nuxt.$route.path == "/") {
+
+        this.mode = true
+
+      } else if (this.$nuxt.$route.path == "/personal") {
+
+        this.mode = false
+
+      }
+
+    }
+
+  },
+  
+  mounted() {
+
+    this.checkPage();
+      
+  },
+
+}
+</script>
+
 
 <style>
 html {
-  font-family:
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
+  font-family: 'Sauce Sans';
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -22,7 +70,6 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  @apply bg-pink-600;
 }
 
 *,
@@ -32,32 +79,30 @@ html {
   margin: 0;
 }
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
+.sauce-sans {
+    font-family: 'Sauce Sans';
 }
 
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
+.pink-mode .hook-container {
+    @apply bg-pink-600;
 }
 
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
+.blue-mode .hook-container {
+    @apply bg-indigo-800;
 }
 
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
+</style>
+
+<style scoped>
+
+
+/* home route and active route will show in bold as it matches / and /about */
+.pink-mode nav ul .nuxt-link-exact-active {
+  @apply bg-indigo-800 px-4 py-2 rotate-2;
 }
+
+.blue-mode nav ul .nuxt-link-exact-active {
+  @apply bg-pink-600 px-4 py-2 rotate-2;
+}
+
 </style>
