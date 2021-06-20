@@ -7,8 +7,8 @@
           <nuxt-link @click.native="checkPage" to="/" :class="mode ? 'bg-pink-600' : 'bg-indigo-800'" class="inline-block text-4xl font-bold text-white uppercase px-3 py-1 sauce-sans transform -rotate-3 ease-in-out hover:scale-110 duration-150 tracking-widest">Matt Wheeler</nuxt-link>
         </div>
         <ul class="text-center text-white inline uppercase text-base font-bold tracking-widest mx-auto lg:mx-0 lg:ml-auto">
-          <li class="block md:inline mb-6 md:mb-0 mx-auto"><nuxt-link to="/" @click.native="checkPage" class="inline-block transform hover:-rotate-2 ease-in-out duration-150">Inside Work</nuxt-link></li>
-          <li class="block md:inline ml-0 md:ml-12 mx-auto"><nuxt-link to="/personal" @click.native="checkPage" class="inline-block transform hover:-rotate-2 ease-in-out duration-150">Outside Work</nuxt-link></li>
+          <li class="block md:inline mb-6 md:mb-0 mx-auto"><nuxt-link to="/" @click.native="checkPage" class="inline-block transform hover:-rotate-2 ease-in-out duration-150">Work</nuxt-link></li>
+          <li class="block md:inline ml-0 md:ml-12 mx-auto"><nuxt-link to="/life" @click.native="checkPage" class="inline-block transform hover:-rotate-2 ease-in-out duration-150">Life</nuxt-link></li>
         </ul>
       </nav>
       
@@ -40,7 +40,7 @@ export default {
 
         this.mode = true
 
-      } else if (this.$nuxt.$route.path == "/personal") {
+      } else if (this.$nuxt.$route.path == "/life") {
 
         this.mode = false
 
@@ -83,11 +83,11 @@ html {
     font-family: 'Sauce Sans';
 }
 
-.pink-mode .hook-container {
+.pink-mode .color-container {
     @apply bg-pink-600;
 }
 
-.blue-mode .hook-container {
+.blue-mode .color-container {
     @apply bg-indigo-800;
 }
 
