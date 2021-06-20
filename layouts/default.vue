@@ -6,9 +6,9 @@
         <div class="mx-auto lg:mx-0 mb-8">
           <nuxt-link @click.native="checkPage" to="/" :class="mode ? 'bg-pink-600' : 'bg-indigo-800'" class="inline-block text-4xl font-bold text-white uppercase px-3 py-1 sauce-sans transform -rotate-3 ease-in-out hover:scale-110 duration-150 tracking-widest">Matt Wheeler</nuxt-link>
         </div>
-        <ul class="text-white inline uppercase text-base font-bold tracking-widest mx-auto lg:mx-0 lg:ml-auto">
-          <li class="inline"><nuxt-link to="/" @click.native="checkPage" class="inline-block transform hover:-rotate-2 ease-in-out duration-150">Inside Work</nuxt-link></li>
-          <li class="inline ml-12"><nuxt-link to="/personal" @click.native="checkPage" class="inline-block transform hover:-rotate-2 ease-in-out duration-150">Outside Work</nuxt-link></li>
+        <ul class="text-center text-white inline uppercase text-base font-bold tracking-widest mx-auto lg:mx-0 lg:ml-auto">
+          <li class="block md:inline mb-6 md:mb-0 mx-auto"><nuxt-link to="/" @click.native="checkPage" class="inline-block transform hover:-rotate-2 ease-in-out duration-150">Inside Work</nuxt-link></li>
+          <li class="block md:inline ml-0 md:ml-12 mx-auto"><nuxt-link to="/personal" @click.native="checkPage" class="inline-block transform hover:-rotate-2 ease-in-out duration-150">Outside Work</nuxt-link></li>
         </ul>
       </nav>
       
