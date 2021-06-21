@@ -6,7 +6,7 @@
 
       <div class="md:w-9/12 mb-24">
         <h2 class="text-4xl font-bold mb-8">&#128221; What I Do</h2>
-        <p class="text-xl leading-relaxed">My background is in digital design &amp; web-development with 8 years combined experience across design and development. I spend my days designing brands, building websites and transforming ideas to the digital domain. My main day-to-day is running the digital side of <a class="inline-block font-bold transform hover:rotate-3 ease-in-out duration-150" href="https://madeby.studio" rel="nofollow" target="_blank">madeby.studio</a> maintaining, refining &amp; developing all things digital. My primary focus is working on client brand strategies, digital experiences, conversion optimisation, search engine optimisation and user interface/experience design.</p>
+        <p class="text-xl leading-relaxed">My background is in digital design &amp; web-development with 8 years combined experience across design and development. I spend my days designing brands, building websites and transforming ideas to the digital domain. Day-to-day I'm running the digital side of <a class="inline-block font-bold transform hover:rotate-3 ease-in-out duration-150" href="https://madeby.studio" rel="nofollow" target="_blank">madeby.studio</a> maintaining, refining &amp; developing all things digital. My primary focus is working on client brand strategies, digital experiences, conversion optimisation, search engine optimisation and user interface/experience design.</p>
       </div>
 
       <div class="md:w-9/12 mb-24">
