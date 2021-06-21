@@ -72,6 +72,10 @@ html {
   box-sizing: border-box;
 }
 
+p {
+  @apply text-xl leading-relaxed;
+}
+
 *,
 *::before,
 *::after {
