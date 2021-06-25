@@ -25,8 +25,8 @@
     <Nuxt />
 
     <ul class="flex sm:hidden text-white w-full flex-row uppercase text-base font-bold tracking-widest mx-auto lg:mx-0 lg:ml-auto fixed bottom-0 mobile-nav">
-        <li class="md:mb-0"><nuxt-link to="/" class="inline-block px-4 py-2 text-indigo-800 bg-white">Work</nuxt-link></li>
-        <li class="block ml-auto"><nuxt-link to="/life" class="inline-block px-4 py-2 text-pink-600 bg-white">Life</nuxt-link></li>
+        <li class="md:mb-0"><nuxt-link to="/" class="inline-block px-4 py-2 text-pink-600 bg-white">Work</nuxt-link></li>
+        <li class="block ml-auto"><nuxt-link to="/life" class="inline-block px-4 py-2 text-indigo-800 bg-white">Life</nuxt-link></li>
       </ul>
   </div>
 
@@ -137,19 +137,19 @@ p {
 }
 
 .pink-mode ul.mobile-nav .nuxt-link-active {
-  @apply bg-white text-pink-600;
-}
-
-.blue-mode ul.mobile-nav .nuxt-link-active {
   @apply bg-white text-indigo-800;
 }
 
+.blue-mode ul.mobile-nav .nuxt-link-active {
+  @apply bg-white text-pink-600;
+}
+
 .pink-mode ul.mobile-nav .nuxt-link-exact-active {
-  @apply bg-pink-600 text-white;
+  @apply bg-indigo-800 text-white;
 }
 
 .blue-mode ul.mobile-nav .nuxt-link-exact-active {
-  @apply bg-indigo-800 text-white;
+  @apply bg-pink-600 text-white;
 }
 
 </style>
