@@ -6,13 +6,13 @@
         <div class="mx-auto lg:mx-0 mb-8 flex flex-col md:flex-row">
           <div class="block md:inline-block text-center">
             <div class="transform ease-in-out hover:scale-110 duration-150 inline-block mx-auto">
-              <img v-if="mode" class="w-24 h-24 mx-auto cursor-pointer" :class="{ 'animate-spin' : spinActive, 'hover:animate-pulse' : !spinActive }" @click="spinActive = !spinActive" src="~assets/images/matt_headshot_work.png">
-              <img v-else-if="!mode" class="w-24 h-24 mx-auto cursor-pointer" :class="{ 'animate-spin' : spinActive, 'hover:animate-pulse' : !spinActive }" @click="spinActive = !spinActive" src="~assets/images/matt_headshot_life.png">
+              <img alt="Matt Wheeler - mattmultiplied" v-if="mode" class="w-24 h-24 mx-auto cursor-pointer" :class="{ 'animate-spin' : spinActive, 'hover:animate-pulse' : !spinActive }" @click="spinActive = !spinActive" src="~assets/images/matt_headshot_work.png">
+              <img alt="Matt Wheeler - mattmultiplied" v-else-if="!mode" class="w-24 h-24 mx-auto cursor-pointer" :class="{ 'animate-spin' : spinActive, 'hover:animate-pulse' : !spinActive }" @click="spinActive = !spinActive" src="~assets/images/matt_headshot_life.png">
             </div>
           </div>
           <div class="flex my-auto -mt-4 md:mt-2">
-            <nuxt-link v-if="mode" to="/life" :class="mode ? 'bg-pink-600' : 'bg-indigo-800'" class="md:-ml-6 block md:inline-block text-4xl font-bold text-white uppercase px-3 py-1 sauce-sans transform -rotate-3 tracking-widest ease-in-out hover:scale-110 duration-150">Matt Wheeler</nuxt-link>
-            <nuxt-link v-else-if="!mode" to="/" :class="mode ? 'bg-pink-600' : 'bg-indigo-800'" class="md:-ml-6 block md:inline-block text-4xl font-bold text-white uppercase px-3 py-1 sauce-sans transform -rotate-3 tracking-widest ease-in-out hover:scale-110 duration-150">Matt Wheeler</nuxt-link>
+            <nuxt-link v-if="mode" to="/life" :class="mode ? 'bg-pink-600' : 'bg-indigo-800'" class="md:-ml-6 block md:inline-block text-3xl md:text-4xl font-bold text-white uppercase px-3 py-1 sauce-sans transform -rotate-3 tracking-widest ease-in-out hover:scale-110 duration-150">Matt Wheeler</nuxt-link>
+            <nuxt-link v-else-if="!mode" to="/" :class="mode ? 'bg-pink-600' : 'bg-indigo-800'" class="md:-ml-6 block md:inline-block text-3xl md:text-4xl font-bold text-white uppercase px-3 py-1 sauce-sans transform -rotate-3 tracking-widest ease-in-out hover:scale-110 duration-150">Matt Wheeler</nuxt-link>
           </div>
         </div>
         <ul class="text-center text-white inline uppercase text-base font-bold tracking-widest mx-auto lg:mx-0 lg:ml-auto">

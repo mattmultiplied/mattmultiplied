@@ -4,14 +4,15 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'mattmultiplied-version-two',
+    title: 'Matt Multiplied | Graphic Designer & Developer',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'mattmultiplied is the pseudonym for Matt Wheeler, graphic designer & full-stack developer. This site is a micro-portfolio site of all his past and current projects.' },
+      { hid: 'og:image', property: 'og:image', content: 'https://mattmultiplied.com/meta.jpg' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
