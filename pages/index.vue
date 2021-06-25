@@ -6,7 +6,7 @@
 
       <LayoutSection>
         <LayoutSubTitle>&#128221; What I Do</LayoutSubTitle>
-        <p>My background is in digital design &amp; web development with 8 years of combined experience across design and development. I spend my days designing brands, building websites and transforming ideas to the digital domain. Day-to-day I'm running the digital side of <a class="inline-block font-bold transform hover:rotate-3 ease-in-out duration-150" href="https://madeby.studio" rel="nofollow" target="_blank">madeby.studio</a> maintaining, refining &amp; developing all things digital. If you want to look at the kind of things I work on, that's the place to go.
+        <p>My background is in digital design &amp; web development with 8 years of combined experience across design and development. I spend my days designing brands, building websites and transforming ideas to the digital domain. Day-to-day I'm running the digital side of <a class="inline-block font-bold transform hover:rotate-3 ease-in-out duration-150" href="https://madeby.studio" rel="noreferrer" target="_blank">madeby.studio</a> maintaining, refining &amp; developing all things digital. If you want to look at the kind of things I work on, that's the place to go.
         <br><br>
         My primary focus is working on client brand strategies, digital experiences, conversion optimisation, search engine optimisation and user interface/experience design. I work with business owners to transform their ideas into fully-fledged digital solutions from conception, ideation to completion and rollout.</p>
       </LayoutSection>
