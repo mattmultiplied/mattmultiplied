@@ -6,7 +6,7 @@ module.exports = {
       fontSize: {
         'sm': '.875rem',
         'base': '1rem',
-        'lg': '1.5rem',
+        'lg': '1.125rem',
         'xl': '1.25rem',
         '2xl': '1.5rem',
         '3xl': '1.875rem',
@@ -21,6 +21,7 @@ module.exports = {
       rotate: ['group-hover'],
       transform: ['group-hover'],
       scale: ['group-hover'],
+      animation: ['hover', 'focus'],
     },
   },
   plugins: [],

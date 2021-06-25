@@ -3,8 +3,17 @@
   <div :class="mode ? 'blue-mode' : 'pink-mode'">
     <div class="absolute w-full">
       <nav class="container mx-auto px-4 py-8 lg:px-16 lg:pt-16 flex flex-col lg:flex-row">
-        <div class="mx-auto lg:mx-0 mb-8">
-          <nuxt-link @click.native="checkPage" to="/" :class="mode ? 'bg-pink-600' : 'bg-indigo-800'" class="inline-block text-4xl font-bold text-white uppercase px-3 py-1 sauce-sans transform -rotate-3 ease-in-out hover:scale-110 duration-150 tracking-widest">Matt Wheeler</nuxt-link>
+        <div class="mx-auto lg:mx-0 mb-8 flex flex-col md:flex-row">
+          <div class="block md:inline-block text-center">
+            <div class="transform ease-in-out hover:scale-110 duration-150 inline-block mx-auto">
+              <img v-if="mode" class="w-24 h-24 mx-auto cursor-pointer" :class="{ 'animate-spin' : spinActive, 'hover:animate-pulse' : !spinActive }" @click="spinActive = !spinActive" src="~assets/images/matt_headshot_work.png">
+              <img v-else-if="!mode" class="w-24 h-24 mx-auto cursor-pointer" :class="{ 'animate-spin' : spinActive, 'hover:animate-pulse' : !spinActive }" @click="spinActive = !spinActive" src="~assets/images/matt_headshot_life.png">
+            </div>
+          </div>
+          <div class="flex my-auto -mt-4 md:mt-2">
+            <nuxt-link v-if="mode" @click.native="checkPage" to="/life" :class="mode ? 'bg-pink-600' : 'bg-indigo-800'" class="md:-ml-6 block md:inline-block text-4xl font-bold text-white uppercase px-3 py-1 sauce-sans transform -rotate-3 tracking-widest ease-in-out hover:scale-110 duration-150">Matt Wheeler</nuxt-link>
+            <nuxt-link v-else-if="!mode" @click.native="checkPage" to="/" :class="mode ? 'bg-pink-600' : 'bg-indigo-800'" class="md:-ml-6 block md:inline-block text-4xl font-bold text-white uppercase px-3 py-1 sauce-sans transform -rotate-3 tracking-widest ease-in-out hover:scale-110 duration-150">Matt Wheeler</nuxt-link>
+          </div>
         </div>
         <ul class="text-center text-white inline uppercase text-base font-bold tracking-widest mx-auto lg:mx-0 lg:ml-auto">
           <li class="block md:inline mb-6 md:mb-0 mx-auto"><nuxt-link to="/" @click.native="checkPage" class="inline-block transform hover:-rotate-2 ease-in-out duration-150">Work</nuxt-link></li>
@@ -27,6 +36,7 @@ export default {
     return {
 
       mode: null,
+      spinActive: false
 
     }
 
@@ -34,7 +44,7 @@ export default {
 
   methods: {
 
-    checkPage() {
+    checkPage: function() {
 
       if(this.$nuxt.$route.path == "/") {
 
@@ -46,7 +56,7 @@ export default {
 
       }
 
-    }
+    },
 
   },
   
@@ -73,7 +83,13 @@ html {
 }
 
 p {
-  @apply text-xl leading-relaxed;
+  @apply text-lg leading-relaxed;
+}
+
+@screen md {
+  p {
+    @apply text-xl;
+  }
 }
 
 *,
