@@ -11,13 +11,13 @@
             </div>
           </div>
           <div class="flex my-auto -mt-4 md:mt-2">
-            <nuxt-link v-if="mode" @click.native="checkPage" to="/life" :class="mode ? 'bg-pink-600' : 'bg-indigo-800'" class="md:-ml-6 block md:inline-block text-4xl font-bold text-white uppercase px-3 py-1 sauce-sans transform -rotate-3 tracking-widest ease-in-out hover:scale-110 duration-150">Matt Wheeler</nuxt-link>
-            <nuxt-link v-else-if="!mode" @click.native="checkPage" to="/" :class="mode ? 'bg-pink-600' : 'bg-indigo-800'" class="md:-ml-6 block md:inline-block text-4xl font-bold text-white uppercase px-3 py-1 sauce-sans transform -rotate-3 tracking-widest ease-in-out hover:scale-110 duration-150">Matt Wheeler</nuxt-link>
+            <nuxt-link v-if="mode" to="/life" :class="mode ? 'bg-pink-600' : 'bg-indigo-800'" class="md:-ml-6 block md:inline-block text-4xl font-bold text-white uppercase px-3 py-1 sauce-sans transform -rotate-3 tracking-widest ease-in-out hover:scale-110 duration-150">Matt Wheeler</nuxt-link>
+            <nuxt-link v-else-if="!mode" to="/" :class="mode ? 'bg-pink-600' : 'bg-indigo-800'" class="md:-ml-6 block md:inline-block text-4xl font-bold text-white uppercase px-3 py-1 sauce-sans transform -rotate-3 tracking-widest ease-in-out hover:scale-110 duration-150">Matt Wheeler</nuxt-link>
           </div>
         </div>
         <ul class="text-center text-white inline uppercase text-base font-bold tracking-widest mx-auto lg:mx-0 lg:ml-auto">
-          <li class="block md:inline mb-6 md:mb-0 mx-auto"><nuxt-link to="/" @click.native="checkPage" class="inline-block transform hover:-rotate-2 ease-in-out duration-150">Work</nuxt-link></li>
-          <li class="block md:inline ml-0 md:ml-12 mx-auto"><nuxt-link to="/life" @click.native="checkPage" class="inline-block transform hover:-rotate-2 ease-in-out duration-150">Life</nuxt-link></li>
+          <li class="block md:inline mb-6 md:mb-0 mx-auto"><nuxt-link to="/" class="inline-block transform hover:-rotate-2 ease-in-out duration-150">Work</nuxt-link></li>
+          <li class="block md:inline ml-0 md:ml-12 mx-auto"><nuxt-link to="/life" class="inline-block transform hover:-rotate-2 ease-in-out duration-150">Life</nuxt-link></li>
         </ul>
       </nav>
       
@@ -65,6 +65,12 @@ export default {
     this.checkPage();
       
   },
+
+  watch:{
+    $route (to, from){
+        this.checkPage();
+    }
+  } 
 
 }
 </script>

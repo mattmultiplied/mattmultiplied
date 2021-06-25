@@ -26,16 +26,16 @@
       <LayoutSection>
         <LayoutSubTitle>&#128170; Areas of Expertise</LayoutSubTitle>
         <div class="grid lg:grid-cols-2 gap-x-12 gap-y-4">
-          <p>- Graphic &amp; Communication Design</p>
-          <p>- Brand Strategy</p>
-          <p>- User Interface &amp; Experience Design</p>
-          <p>- Website Development</p>
-          <p>- Application Development</p>
-          <p>- Conversion Optimisation</p>
-          <p>- Performance Optimisation</p>
-          <p>- Search Engine Optimisation</p>
-          <p>- Data Visualisation</p>
-          <p>- API Integrations</p>
+          <p><span class="mr-2">&#9989;</span> Graphic &amp; Communication Design</p>
+          <p><span class="mr-2">&#9989;</span> Brand Strategy</p>
+          <p><span class="mr-2">&#9989;</span> User Interface &amp; Experience Design</p>
+          <p><span class="mr-2">&#9989;</span> Website Development</p>
+          <p><span class="mr-2">&#9989;</span> Application Development</p>
+          <p><span class="mr-2">&#9989;</span> Conversion Optimisation</p>
+          <p><span class="mr-2">&#9989;</span> Performance Optimisation</p>
+          <p><span class="mr-2">&#9989;</span> Search Engine Optimisation</p>
+          <p><span class="mr-2">&#9989;</span> Data Visualisation</p>
+          <p><span class="mr-2">&#9989;</span> API Integrations</p>
         </div>
       </LayoutSection>
 

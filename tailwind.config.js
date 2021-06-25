@@ -21,7 +21,7 @@ module.exports = {
       rotate: ['group-hover'],
       transform: ['group-hover'],
       scale: ['group-hover'],
-      animation: ['hover', 'focus'],
+      animation: ['hover', 'focus', 'group-hover'],
     },
   },
   plugins: [],
