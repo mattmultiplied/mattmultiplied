@@ -41,11 +41,21 @@
 
       <LayoutSection>
         <LayoutSubTitle>&#127912; Projects</LayoutSubTitle>
-        <div class="grid lg:grid-cols-2 gap-12 text-xl -mb-16">
-          <LayoutProjectCard title="madeby.studio" complete="true" description="Co-Founder &amp; Director of madeby.studio, a Graphic Design &amp; Digital Development agency located in Leeds City Center, UK. I run the digital side realising client projects into the digital domain." link="https://madeby.studio/" :image="require('~/assets/images/madebystudio_cover.png')" />
-          <LayoutProjectCard title="Travelling &amp; Photography" complete="true" description="Experiments into drone footage and birds eye view photography. Primarily a learning project for a bit of fun while out hiking or travelling. DJI Mavic Mini 2 and Canon EOS100D." link="https://www.instagram.com/mattmultiplied_adventures/" :image="require('~/assets/images/photography_cover.jpg')" />
-          <LayoutProjectCard title="Creative Codespace" complete="true" description="Experimental project bringing design and code together to create procedurally generated algorithmic designs. Currently working on more advanced generative patterns to compile into a design zine." link="https://madeby.studio/work/programming-meets-bespoke-contemporary-design/" :image="require('~/assets/images/creative_codespace_cover.jpg')" />
-          <LayoutProjectCard title="Appetiser" complete="false" description="A learning project to understand React Native and how to integrate it into Laravel functionalities such as Authentication and API's. Appetiser is going to be a simple food exploration app where you swipe on recipes." link="/" :image="require('~/assets/images/appestiser_cover.png')" />
+        <div class="grid lg:grid-cols-2 gap-12 text-xl">
+          <LazyLayoutProjectCard title="madeby.studio" complete="true" description="Co-Founder &amp; Director of madeby.studio, a Graphic Design &amp; Digital Development agency located in Leeds City Center, UK. I run the digital side realising client projects into the digital domain." link="https://madeby.studio/" :image="require('~/assets/images/madebystudio_cover.png')" />
+          <LazyLayoutProjectCard title="Travelling &amp; Photography" complete="true" description="Experiments into drone footage and birds eye view photography. Primarily a learning project for a bit of fun while out hiking or travelling. DJI Mavic Mini 2 and Canon EOS100D." link="https://www.instagram.com/mattmultiplied_adventures/" :image="require('~/assets/images/photography_cover.jpg')" />
+          <LazyLayoutProjectCard title="Creative Codespace" complete="true" description="Experimental project bringing design and code together to create procedurally generated algorithmic designs. Currently working on more advanced generative patterns to compile into a design zine." link="https://madeby.studio/work/programming-meets-bespoke-contemporary-design/" :image="require('~/assets/images/creative_codespace_cover.jpg')" />
+          <LazyLayoutProjectCard title="Appetiser" complete="false" description="A learning project to understand React Native and how to integrate it into Laravel functionalities such as Authentication and API's. Appetiser is going to be a simple food exploration app where you swipe on recipes." link="/" :image="require('~/assets/images/appestiser_cover.png')" />
+        </div>
+      </LayoutSection>
+
+      <LayoutSection>
+        <LayoutSubTitle>&#127942; Awards &amp; Recognitions</LayoutSubTitle>
+        <div class="grid grid-cols-1 gap-x-12 gap-y-4  -mb-16">
+          <LayoutListItem title="Creative Industries Entrepreneur of the Year Awards Finalist" description="July 2021 | The Great British Entrepreneur Awards" complete=true />
+          <LayoutListItem title="SantanderX Entrepreneurship Awards - Nominee" description="May 2021 | SantanderX" complete="true" />
+          <LayoutListItem title="Digital Enterprise Top 100" description="January 2021 | Digital Enterprise" complete="true" />
+          <LayoutListItem title="Business Plan Competition - Third Prize Winner" description="April 2019 | The University of Leeds" complete="true" />
         </div>
       </LayoutSection>
 

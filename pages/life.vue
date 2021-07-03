@@ -14,30 +14,12 @@
         <LayoutSection>
         <LayoutSubTitle>&#128170; Challenges</LayoutSubTitle>
           <div class="grid lg:grid-cols-2 gap-x-12 gap-y-4">
-            <div class="flex flex-col">
-              <p><span class="mr-2">&#11093;</span> Yorkshire Three Peaks</p>
-              <p class="ml-10 text-sm italic">- July 18th 2021 | <a href="https://gofund.me/28fd373e" class="underline" target="_blank" rel="nofollow">Donate</a></span></p>
-            </div>
-            <div class="flex flex-col">
-              <p><span class="mr-2">&#11093;</span> Asda Foundation Leeds 10K</p>
-              <p class="ml-10 text-sm italic">- September 5th 2021</p>
-            </div>
-            <div class="flex flex-col">
-              <p><span class="mr-2">&#11093;</span> National Three Peaks</p>
-              <p class="ml-10 text-sm italic">- Target Completion, 2022</p>
-            </div>
-            <div class="flex flex-col">
-              <p><span class="mr-2">&#11093;</span> London Marathon</p>
-              <p class="ml-10 text-sm italic">- Target Completion, 2023</p>
-            </div>
-            <div class="flex flex-col">
-              <p><span class="mr-2">&#11093;</span> Mount Kilimanjaro</p>
-              <p class="ml-10 text-sm italic">- Target Completion, 2025</p>
-            </div>
-            <div class="flex flex-col">
-              <p><span class="mr-2">&#11093;</span> Lake District Wainwrights</p>
-              <p class="ml-10 text-sm italic">- 2012 - Target Completion, 2026</p>
-            </div>
+            <LayoutListItem title="Yorkshire Three Peaks" description="July 18th 2021"  />
+            <LayoutListItem title="National Three Peaks" description="September 5th 2021"  />
+            <LayoutListItem title="Asda Foundation Leeds 10K" description="Target Completion, 2022"  />
+            <LayoutListItem title="London Marathon" description="Target Completion, 2023"  />
+            <LayoutListItem title="Mount Kilimanjaro" description="Target Completion, 2025"  />
+            <LayoutListItem title="Lake District Wainwrights" description="2012 - Target Completion, 2026"  />
           </div>
         </LayoutSection>
 
@@ -45,12 +27,12 @@
         <LayoutSubTitle>&#128247; Photography</LayoutSubTitle>
         <p class="-mt-4 mb-8">I post mainly on my <a class="inline-block font-bold transform hover:rotate-3 ease-in-out duration-150" href="https://www.instagram.com/mattmultiplied_adventures/" rel="nofollow" target="_blank">instagram</a>, but below are (what I think) my best.</p>
         <div class="grid grid-cols-1 xl:grid-cols-2 gap-x-12 gap-y-12">
-          <LayoutPhotoCard caption="Knaresborough Viaduct, 24th May 2021" link="/photography/knaresborough_viaduct_full.jpg" :image="require('~/assets/images/photography/knaresborough_viaduct_cover.jpg')" />
-          <LayoutPhotoCard caption="St. Peter's Basilica, 6th July 2018" link="/photography/basilica_full.jpg" :image="require('~/assets/images/photography/basilica_cover.jpg')" />
-          <LayoutPhotoCard caption="Cordoba, 12th July 2018" link="/photography/cordoba_full.jpg" :image="require('~/assets/images/photography/cordoba_cover.jpg')" />
-          <LayoutPhotoCard caption="Seville, 11th July 2018" link="/photography/seville_full.jpg" :image="require('~/assets/images/photography/seville_cover.jpg')" />
-          <LayoutPhotoCard caption="Seville, 11th July 2018" link="/photography/seville_structure_full.jpg" :image="require('~/assets/images/photography/seville_structure_cover.jpg')" />
-          <LayoutPhotoCard caption="Naples, 8th July 2018" link="/photography/naples_full.jpg" :image="require('~/assets/images/photography/naples_cover.jpg')" />
+          <LazyLayoutPhotoCard caption="Knaresborough Viaduct, 24th May 2021" link="/photography/knaresborough_viaduct_full.jpg" :image="require('~/assets/images/photography/knaresborough_viaduct_cover.jpg')" />
+          <LazyLayoutPhotoCard caption="St. Peter's Basilica, 6th July 2018" link="/photography/basilica_full.jpg" :image="require('~/assets/images/photography/basilica_cover.jpg')" />
+          <LazyLayoutPhotoCard caption="Cordoba, 12th July 2018" link="/photography/cordoba_full.jpg" :image="require('~/assets/images/photography/cordoba_cover.jpg')" />
+          <LazyLayoutPhotoCard caption="Seville, 11th July 2018" link="/photography/seville_full.jpg" :image="require('~/assets/images/photography/seville_cover.jpg')" />
+          <LazyLayoutPhotoCard caption="Seville, 11th July 2018" link="/photography/seville_structure_full.jpg" :image="require('~/assets/images/photography/seville_structure_cover.jpg')" />
+          <LazyLayoutPhotoCard caption="Naples, 8th July 2018" link="/photography/naples_full.jpg" :image="require('~/assets/images/photography/naples_cover.jpg')" />
         </div>
         </LayoutSection>
 
