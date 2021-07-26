@@ -52,7 +52,7 @@
       <LayoutSection>
         <LayoutSubTitle>&#127942; Awards &amp; Recognitions</LayoutSubTitle>
         <div class="grid grid-cols-1 gap-x-12 gap-y-4  -mb-16">
-          <LayoutListItem title="Creative Industries Entrepreneur of the Year Awards Finalist" description="July 2021 | The Great British Entrepreneur Awards" complete=true />
+          <LayoutListItem title="Creative Industries Entrepreneur of the Year Awards Finalist" description="July 2021 | The Great British Entrepreneur Awards" complete="true" />
           <LayoutListItem title="SantanderX Entrepreneurship Awards - Nominee" description="May 2021 | SantanderX" complete="true" />
           <LayoutListItem title="Digital Enterprise Top 100" description="January 2021 | Digital Enterprise" complete="true" />
           <LayoutListItem title="Business Plan Competition - Third Prize Winner" description="April 2019 | The University of Leeds" complete="true" />

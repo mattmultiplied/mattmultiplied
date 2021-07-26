@@ -14,9 +14,9 @@
         <LayoutSection>
         <LayoutSubTitle>&#128170; Challenges</LayoutSubTitle>
           <div class="grid lg:grid-cols-2 gap-x-12 gap-y-4">
-            <LayoutListItem title="Yorkshire Three Peaks" description="July 18th 2021"  />
-            <LayoutListItem title="National Three Peaks" description="September 5th 2021"  />
-            <LayoutListItem title="Asda Foundation Leeds 10K" description="Target Completion, 2022"  />
+            <LayoutListItem title="Yorkshire Three Peaks" description="July 18th 2021" complete="true" />
+            <LayoutListItem title="Asda Foundation Leeds 10K" description="September 5th 2021"  />
+            <LayoutListItem title="National Three Peaks" description="Target Completion, 2022"  />
             <LayoutListItem title="London Marathon" description="Target Completion, 2023"  />
             <LayoutListItem title="Mount Kilimanjaro" description="Target Completion, 2025"  />
             <LayoutListItem title="Lake District Wainwrights" description="2012 - Target Completion, 2026"  />
