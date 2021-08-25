@@ -52,6 +52,7 @@
       <LayoutSection>
         <LayoutSubTitle>&#127942; Awards &amp; Recognitions</LayoutSubTitle>
         <div class="grid grid-cols-1 gap-x-12 gap-y-4  -mb-16">
+          <LayoutListItem title="Leeds Digital Festival Thrive Award 2020 - 2021 Nominee" description="August 2021 | Leeds Digital Festival" complete="true" />
           <LayoutListItem title="Creative Industries Entrepreneur of the Year Awards Finalist" description="July 2021 | The Great British Entrepreneur Awards" complete="true" />
           <LayoutListItem title="SantanderX Entrepreneurship Awards - Nominee" description="May 2021 | SantanderX" complete="true" />
           <LayoutListItem title="Digital Enterprise Top 100" description="January 2021 | Digital Enterprise" complete="true" />
